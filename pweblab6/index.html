@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Autor" content="Anderson Lino Arce Valencia">
+    <title> Archivo de universidades licensiadas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<div class="titulo">
+    <h1>CONSULTAR UNIVERSIDADES LICENCIADAS</h1>
+</div>
+<form action="/cgi-bin/SolicitarInfo.cgi" method="get">
+    <h2>FILTRO POR:</h2>
+    <select  id="Busqueda_por_seleccion" name="Busqueda_por_seleccion" class="BusquedaA">
+        <option value="NOMBRE">POR NOMBRE DE LA UNIVERSIDAD</option>
+        <option value="PERIODO_LICENCIAMIENTO">POR PERIODO DE LICENCIAMIENTO</option>
+        <option value="DEPARTAMENTO_LOCAL">POR DEPARTAMENTO</option>
+        <option value="DENOMINACION_PROGRAMA">POR DENOMINACION DEL PROGRAMA</option>
+    </select>
+
+    <input type="text" name="linkArchivo" id="linkArchivo" class="text-link" placeholder="Dato a consultar">
+    <input type="submit" value="Solicitar Info" class="submit">
+</form>
+<img src="https://play-lh.googleusercontent.com/6InwY9J17s6CFVHocVREI88nkwyEL1mwYWCcLW2P1hmS9-GPvXLdTneOvOeOdGYMuA" alt="" width="100px" height="100px">
+
+<body>
+
+</body>
+
+</html>

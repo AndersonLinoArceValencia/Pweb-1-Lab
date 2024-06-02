@@ -1,0 +1,85 @@
+body {
+    text-decoration: none;
+    background-image: url(https://www.lifeboxset.com/wp-content/uploads/2015/06/libros1.jpg);
+    background-size: 100%;
+}
+
+.text-link {
+    resize: none;
+    border: 1;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: normal;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 50px;
+    margin-left: 360px;
+    padding-inline-start: 10px;
+    padding-inline-end: 75px;
+    border-radius: 100px;
+    padding-left: -200px;
+    line-height: 40px;
+    font-family: arial, sans-serif;
+    overflow-x: hidden;
+    font-size: 15px;
+    flex: 100%;
+    width: 560px;
+    height: 45px;
+    pointer-events: auto;
+}
+
+.titulo {
+    padding-left: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    color: rgb(74, 218, 223);
+}
+
+.submit {
+    margin-top: 50px;
+    flex: 100%;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    background-color: rgb(101, 194, 194);
+    pointer-events: auto;
+    margin-left: 600px;
+}
+
+.submit:hover {
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+}
+
+.BusquedaA {
+    margin-left: 524px;
+    font-style: italic;
+    font-weight: bold;
+    margin-block: 20px 20px;
+    padding-block: 10px 10px;
+    padding-inline-start: 20px;
+    padding-inline-end: 5px;
+    margin-top: -30px;
+}
+
+h2 {
+    padding-left: 600px;
+    color: rgb(133, 255, 214);
+}
+
+img {
+    resize: none;
+    border: 1;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+    outline: none;
+    display: flex;
+    margin-left: 1070px;
+    margin-top: -360px;
+}
